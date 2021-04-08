@@ -1,0 +1,120 @@
+body{
+    font-family: 'Oxygen', sans-serif;
+    font-size:16px;
+    font-weight: 400;
+}
+article a,
+a:hover {
+    text-decoration: underline !important;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    letter-spacing: inherit;
+}
+.widget form {
+    width: 100%;
+}
+
+.bsgrid-item .bshop-single-list{
+    -webkit-box-shadow: 0 0 70px rgb(0 0 0 / 11%);
+    box-shadow: 0 0 70px rgb(0 0 0 / 11%);
+    background: #fff;
+    margin-bottom:15px;
+}
+.bs-grid .bshop-single-list header.entry-header {
+    padding: 20px 10px;
+}
+
+.bs-grid .bshop-single-list header.entry-header h2 {
+    font-size: 24px;
+}
+.bsgrid-item .bshop-single-list .entry-content {
+    padding: 20px;
+    margin-top: 0;
+}
+
+.asthir-widget2 .asthir-sticky, 
+.asthir-widget2 .asthir-scat,
+.asthir-widget2 h3.widget-title,
+.asthir-widget2 h2.widget-title {
+    font-size: 13px;
+    text-transform: uppercase;
+    background: #343a40;
+    padding: 5px 5px;
+    color: #fff;
+    border-radius: 5px;
+    transform: rotate(0); 
+    position: absolute;
+    min-width: 50px;
+    top: -20px;
+    left: -2%;
+    width: 104%;
+    height: 25px;
+    margin: 0 auto;
+}
+.asthir-widget2 .bsgrid-item .asthir-scat {
+    width: 94%;
+    left: 3%;
+}
+.bs-grid img {
+    min-height: 150px;
+    transition: 0.5s;
+}
+.bs-grid img:hover {
+    transform: scale(1.1);
+}
+
+.bs-grid a.post-thumbnail {
+    display: block;
+    overflow: hidden;
+}
+nav.navigation.pagination .nav-links a, nav.navigation.pagination .nav-links span {
+    border: 1px solid #ededed;
+    padding: 5px 10px;
+    margin: 10px 2px;
+}
+nav.navigation.pagination .nav-links a:hover,
+ nav.navigation.pagination .nav-links span:hover {
+    background: #ededed;
+}
+nav.navigation.pagination {
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+}
+.asthir-widgets2 section.widget {
+    margin-bottom: 40px;
+}
+.asthir-header .asthir-nav-logo .site-title a {
+    font-size: 28px;
+    color: #fff;
+}
+.asthir-header .asthir-nav-logo .site-description {
+    padding: 0;
+    margin: 0 0 5px 0;
+    font-size: 16px;
+}
+.asthir-header .asthir-nav-logo .site-title {
+    margin-bottom: 0;
+}
+.asthir-nav-logo .row {
+    align-items: baseline;
+}
+
+@media (max-width: 767px){
+
+    .asthir-nav-logo .menu-main-menu-container {
+        text-align: left;
+    }
+    .asthir-nav-logo .main-navigation.text-right {
+        text-align: center !important;
+    }
+
+    .asthir-nav-logo .asthir-logotext.asthir-menulogo {
+        text-align: center !important;
+        margin-bottom: 10px;
+    }
+
+
+}
